@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A43EE7AF-9DFC-417E-9601-5F7998D597EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ObserverDesignPatterns</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>93D7FD57-34C9-41BE-A953-235E7D700235</key>
+		<string>https://github.com/y279336671/DesignPatternsForObjective-C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ObserverDesignPatterns/ObserverDesignPatterns.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>93D7FD57-34C9-41BE-A953-235E7D700235</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/y279336671/DesignPatternsForObjective-C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>93D7FD57-34C9-41BE-A953-235E7D700235</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>93D7FD57-34C9-41BE-A953-235E7D700235</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DesignPatternsForObjective-C</string>
+		</dict>
+	</array>
+</dict>
+</plist>
