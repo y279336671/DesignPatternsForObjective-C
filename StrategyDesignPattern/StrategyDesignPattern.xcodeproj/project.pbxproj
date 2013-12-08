@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1665077D18544BC3000C640E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1665077C18544BC3000C640E /* Foundation.framework */; };
+		1665078018544BC3000C640E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1665077F18544BC3000C640E /* main.m */; };
+		1665078418544BC3000C640E /* StrategyDesignPattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1665078318544BC3000C640E /* StrategyDesignPattern.1 */; };
+		1665078C18544E0C000C640E /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1665078B18544E0C000C640E /* CashContext.m */; };
+		1665078F18544E1E000C640E /* CashSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1665078E18544E1E000C640E /* CashSuper.m */; };
+		1665079218544E36000C640E /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1665079118544E36000C640E /* CashNormal.m */; };
+		1665079518544E4B000C640E /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1665079418544E4B000C640E /* CashRebate.m */; };
+		1665079818544E5C000C640E /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1665079718544E5C000C640E /* CashReturn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1665077718544BC3000C640E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1665078418544BC3000C640E /* StrategyDesignPattern.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1665077918544BC3000C640E /* StrategyDesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StrategyDesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
+		1665077C18544BC3000C640E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1665077F18544BC3000C640E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1665078218544BC3000C640E /* StrategyDesignPattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrategyDesignPattern-Prefix.pch"; sourceTree = "<group>"; };
+		1665078318544BC3000C640E /* StrategyDesignPattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StrategyDesignPattern.1; sourceTree = "<group>"; };
+		1665078A18544E0C000C640E /* CashContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
+		1665078B18544E0C000C640E /* CashContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
+		1665078D18544E1E000C640E /* CashSuper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
+		1665078E18544E1E000C640E /* CashSuper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashSuper.m; sourceTree = "<group>"; };
+		1665079018544E36000C640E /* CashNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
+		1665079118544E36000C640E /* CashNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
+		1665079318544E4B000C640E /* CashRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
+		1665079418544E4B000C640E /* CashRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
+		1665079618544E5C000C640E /* CashReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
+		1665079718544E5C000C640E /* CashReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1665077618544BC3000C640E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1665077D18544BC3000C640E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1665077018544BC3000C640E = {
+			isa = PBXGroup;
+			children = (
+				1665077E18544BC3000C640E /* StrategyDesignPattern */,
+				1665077B18544BC3000C640E /* Frameworks */,
+				1665077A18544BC3000C640E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1665077A18544BC3000C640E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1665077918544BC3000C640E /* StrategyDesignPattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1665077B18544BC3000C640E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1665077C18544BC3000C640E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1665077E18544BC3000C640E /* StrategyDesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				1665077F18544BC3000C640E /* main.m */,
+				1665078318544BC3000C640E /* StrategyDesignPattern.1 */,
+				1665078118544BC3000C640E /* Supporting Files */,
+				1665078A18544E0C000C640E /* CashContext.h */,
+				1665078B18544E0C000C640E /* CashContext.m */,
+				1665078D18544E1E000C640E /* CashSuper.h */,
+				1665078E18544E1E000C640E /* CashSuper.m */,
+				1665079018544E36000C640E /* CashNormal.h */,
+				1665079118544E36000C640E /* CashNormal.m */,
+				1665079318544E4B000C640E /* CashRebate.h */,
+				1665079418544E4B000C640E /* CashRebate.m */,
+				1665079618544E5C000C640E /* CashReturn.h */,
+				1665079718544E5C000C640E /* CashReturn.m */,
+			);
+			path = StrategyDesignPattern;
+			sourceTree = "<group>";
+		};
+		1665078118544BC3000C640E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1665078218544BC3000C640E /* StrategyDesignPattern-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1665077818544BC3000C640E /* StrategyDesignPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1665078718544BC3000C640E /* Build configuration list for PBXNativeTarget "StrategyDesignPattern" */;
+			buildPhases = (
+				1665077518544BC3000C640E /* Sources */,
+				1665077618544BC3000C640E /* Frameworks */,
+				1665077718544BC3000C640E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrategyDesignPattern;
+			productName = StrategyDesignPattern;
+			productReference = 1665077918544BC3000C640E /* StrategyDesignPattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1665077118544BC3000C640E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = yanghe;
+			};
+			buildConfigurationList = 1665077418544BC3000C640E /* Build configuration list for PBXProject "StrategyDesignPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1665077018544BC3000C640E;
+			productRefGroup = 1665077A18544BC3000C640E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1665077818544BC3000C640E /* StrategyDesignPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1665077518544BC3000C640E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1665078F18544E1E000C640E /* CashSuper.m in Sources */,
+				1665078C18544E0C000C640E /* CashContext.m in Sources */,
+				1665079818544E5C000C640E /* CashReturn.m in Sources */,
+				1665078018544BC3000C640E /* main.m in Sources */,
+				1665079518544E4B000C640E /* CashRebate.m in Sources */,
+				1665079218544E36000C640E /* CashNormal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1665078518544BC3000C640E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1665078618544BC3000C640E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1665078818544BC3000C640E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyDesignPattern/StrategyDesignPattern-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1665078918544BC3000C640E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyDesignPattern/StrategyDesignPattern-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1665077418544BC3000C640E /* Build configuration list for PBXProject "StrategyDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1665078518544BC3000C640E /* Debug */,
+				1665078618544BC3000C640E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1665078718544BC3000C640E /* Build configuration list for PBXNativeTarget "StrategyDesignPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1665078818544BC3000C640E /* Debug */,
+				1665078918544BC3000C640E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1665077118544BC3000C640E /* Project object */;
+}
